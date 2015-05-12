@@ -87,7 +87,8 @@ a.left-off-canvas-toggle:hover {
     .left-off-canvas-menu nav ul li a {
       color: #fff;
       display: block;
-      padding: 5px 0 5px 10px; }
+      padding: 5px 0 5px 10px;
+      font-size: 1.125rem; }
 
 /* line 52, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
 aside h2 {
