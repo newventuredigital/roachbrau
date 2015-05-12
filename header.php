@@ -8,10 +8,10 @@
 		<?php wp_title(''); ?>
 	</title>
 	<!-- STYLESHEETS -->
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/normalize.css" />
+	<!--<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/normalize.css" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/foundation.min.css" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/wp-helpers.css" />
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">-->
 
     <!-- MODERNIZER -->
     <script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr.min.js"></script>
