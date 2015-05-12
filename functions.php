@@ -19,7 +19,12 @@
       ));
     }
 
-    add_theme_support( 'post-thumbnails' ); 
+  // Remove Tags support
+    add_action('init', 'remove_tags');
+    function remove_tags(){
+    register_taxonomy('post_tag', array());}
+
+    // add_theme_support( 'post-thumbnails' ); 
 
     function excerpt($limit) {
           $excerpt = explode(' ', get_the_excerpt(), $limit);
@@ -29,7 +34,7 @@
           } else { $excerpt = implode(" ",$excerpt);} 
           $excerpt = preg_replace('`\[[^\]]*\]`','',$excerpt);
           $link = get_the_permalink();
-          $excerpt .= ' <a href="' . $link . '" class="read-more">Read More </a>';
+          $excerpt .= ' <a href="' . $link . '" class="read-more">Read More &rarr;</a>';
           return $excerpt;
         }
 

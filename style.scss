@@ -67,10 +67,13 @@ h5 {font-size:1.125rem;}
 .h2 {font-size:1.4375rem;}
 .h3 {font-size:1.125rem;}
 
+a, a:link {color:$red; transition:all 0.25s;}
+
 /* Posts */
 .individual-post {padding-bottom:25px;
   .title {
     a, a:link {color:#000;}
+    a:hover {color:$red;}
   }
   .excerpt {padding-bottom:20px;}
   .post-info{background:$light-gray; padding:5px 0 5px 10px; border-radius: 6px;

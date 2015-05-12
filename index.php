@@ -14,6 +14,7 @@
 
 			<?php else : ?>
 				<h2>Not Found</h2>
+				<p>Looks like we've got a broken link!.</p>
 			<?php endif; ?>
 	</div>
 

@@ -149,45 +149,53 @@ h5 {
 .h3 {
   font-size: 1.125rem; }
 
+/* line 70, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+a, a:link {
+  color: #AF0600;
+  transition: all 0.25s; }
+
 /* Posts */
-/* line 71, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+/* line 73, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
 .individual-post {
   padding-bottom: 25px; }
-  /* line 73, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 75, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   .individual-post .title a, .individual-post .title a:link {
     color: #000; }
-  /* line 75, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 76, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  .individual-post .title a:hover {
+    color: #AF0600; }
+  /* line 78, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   .individual-post .excerpt {
     padding-bottom: 20px; }
-  /* line 76, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 79, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   .individual-post .post-info {
     background: #eee;
     padding: 5px 0 5px 10px;
     border-radius: 6px; }
-    /* line 77, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+    /* line 80, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
     .individual-post .post-info .date {
       float: left; }
-    /* line 78, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+    /* line 81, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
     .individual-post .post-info .category {
       float: left;
       padding-left: 10px;
       font-style: italic; }
 
 @media (max-width: 400px) {
-  /* line 83, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 86, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   header {
     padding-top: 10px; }
-    /* line 84, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+    /* line 87, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
     header .logo img {
       padding: 0 10px; }
  }
 
 @media (max-width: 640px) {
-  /* line 87, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 90, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   .nav-wrapper {
     margin-bottom: 0; }
 
-  /* line 88, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
+  /* line 91, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
   .left-off-canvas-toggle {
     padding: 8px 0; }
  }

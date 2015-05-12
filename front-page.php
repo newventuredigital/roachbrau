@@ -9,14 +9,14 @@ Template Name: Front Page
 	<div class="medium-7 columns">
 		<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			<?php the_content(); ?>
-			<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+			<?php edit_post_link('Edit this page.', '<p>', '</p>'); ?>
 		<?php endwhile; endif; ?>
 
 
 		<?php $args = array('posts_per_page' => 10);
           $posts = get_posts( $args );
           foreach ($posts as $post) { setup_postdata( $post ); ?>
-            <div class="individual-post cf">
+            <article class="individual-post cf">
 	            <h3 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 	            <div class="excerpt">
 	            <?php echo excerpt(49); ?>
@@ -26,7 +26,7 @@ Template Name: Front Page
 		            <div class="date"><?php the_time('n/j/y'); ?></div>
 		            <div class="category">Posted in <?php the_category(', '); ?></div>
 	            </div>
-            </div>
+            </article>
           <?php wp_reset_postdata(); } ?>
 
 	</div>
