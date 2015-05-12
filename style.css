@@ -67,7 +67,8 @@ nav.primary-navigation ul {
 /* line 40, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
 a.left-off-canvas-toggle {
   transition: all 0.25s ease;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  color: #fff !important; }
 
 /* line 41, C:/wamp/www/roachbrau/wp-content/themes/roachbrau/style.scss */
 a.left-off-canvas-toggle:hover {
